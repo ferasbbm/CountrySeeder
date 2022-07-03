@@ -5,6 +5,11 @@ namespace Database\Seeders;
 use App\Models\Country;
 use Illuminate\Database\Seeder;
 
+/**
+ * class CountrySeeder
+ *
+ * @author  feras <feras.bbm@gmail.com>
+ */
 class CountrySeeder extends Seeder
 {
     /**
