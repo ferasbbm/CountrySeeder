@@ -18,7 +18,7 @@ class CountrySeeder extends Seeder
      * @return void
      * @author  feras
      */
-    public function run():void
+    public function run(): void
     {
 
         $countries = [
@@ -2975,6 +2975,7 @@ class CountrySeeder extends Seeder
             ],
 
         ];
+
 
         foreach ($countries as $country){
             Country::create($country);
