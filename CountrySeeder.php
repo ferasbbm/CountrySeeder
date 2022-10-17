@@ -16,8 +16,9 @@ class CountrySeeder extends Seeder
      * Run the database seeds.
      *
      * @return void
+     * @author  feras
      */
-    public function run()
+    public function run():void
     {
 
         $countries = [
